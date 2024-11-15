@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
 
     return(
-        <div className="flex justify-between bottom-0 bg-[var(--tertiary-color)] text-[var(--secondary-color)] p-10 px-20">
+        <div className="flex justify-between bottom-0 bg-[var(--tertiary-color)] text-[var(--secondary-color)] p-10 px-20 mt-60">
             <section className="w-80">
                 <p className="text-2xl">Reach out to me for any questions or simply just to have a talk over a cup of coffee <a className="cursor-pointer hover:text-[var(--accent-color)]" href="mailto:m.kjaerside@outlook.com">___________</a></p>
             </section>

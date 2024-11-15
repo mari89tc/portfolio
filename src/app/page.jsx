@@ -1,19 +1,16 @@
-// import Header from "@/components/Header";
-// import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
+
 
 export default function LandingPage() {
     return (
         <>
-            {/* <Header/> */}
             <Layout current="Home">
-            <main>
-                <header>
-                    <h1 className="font-bold uppercase text-7xl w-min">Marie Engestoft Kj&AElig;rside</h1>
+            <section className="mx-20">
+                <header className="flex flex-col space-y-20">
+                    <h1 className="font-bold uppercase text-8xl w-min">Marie Engestoft Kj&AElig;rside</h1>
+                    <p className="w-2/6 text-right text-xl self-end">Hi there! I am Webdevelopment student at KEA - Copenhagen School of design and Technology with a passion for creating digital solutions that stands out.</p>
                 </header>
-                <p>Hi there! I am Webdevelopment student at KEA - Copenhagen School of design and Technology with a passion for creating digital solutions that stands out.</p>
-            </main>
-            {/* <Footer/> */}
+            </section>
             </Layout>
         </>
     );
